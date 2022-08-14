@@ -1,6 +1,6 @@
 # encrypt-challenge.github.io
 
-[Demo!](https://jdre20.netlify.app/)
+[Demo](https://jdre20.netlify.app/)
 
 ## Construido con 🛠️
 
