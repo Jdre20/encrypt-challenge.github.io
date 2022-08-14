@@ -1,8 +1,8 @@
-# encrypt-challenge.github.io
+# encrypt-challenge
 
 [Demo](https://jdre20.netlify.app/)
 
-## Construido con 🛠️
+## Lenguajes utilizados 🛠️
 
 * Html
 * Css
