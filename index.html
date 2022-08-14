@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptar</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="title">
+    <h2 class="title_text">Encriptador de texto - Alura / One</h2>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+
+        <img class="svg" src="./img/latam.svg" alt="">
+
+        <textarea class="texto" name="input" id="input1" placeholder="Ingrese texto"></textarea>
+
+        <div class="text-inf">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <label>Solo letras minusculas y sin acentos</label>
+        </div>
+
+        <div class="btns">
+          <input class="button btn1" onclick="btnencriptar()" type="button" value="Encriptar" id="btn-enc">
+          <input class="button btn2" onclick="btndesencriptar()" type="button" value="Desencriptar" id="btn-des">
+        </div>
+
+    </div>
+
+    <div class="card">
+
+      <img class="aug" src="./img/img.png" alt="">
+
+      <textarea class="texto cif" name="" id="input-des" readonly></textarea>
+      
+      <div class="text-inf">
+        <i class="fa-solid fa-arrow-up"></i>
+        <label>Texto encriptado</label>
+      </div>
+      
+      <div class="btns">
+        <input class="button btn3" type="button" onclick="btncopy()" value="Copiar" id="btn-copy">
+        <input class="button btn4" type="button" onclick="btnclear()" value="Limpiar" id="btn-clear">
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p class="footer_text">Realizado por Jhovanny Huanca &#169 2022.</p>
+  </footer>
+
+  <script src="./js/cifrado.js"></script>
+</body>
+
+</html>
